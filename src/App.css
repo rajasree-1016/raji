@@ -1,0 +1,25 @@
+#home{
+  /* background:rgb(0,101,219); */
+  background: rgb(31, 57, 227);
+   height: 100vh;
+  background: linear-gradient(90deg, rgb(125, 21, 215) 50%, rgb(10, 124, 185) 100%);
+}
+/* cards */
+.card{
+  transition: all 0.8s ease;
+}
+.form{
+ background:rgb(0,101,219);
+ min-height: 550px;
+ background: linear-gradient(90deg, rgb(0,101,219) 50%, rgba(0,212,255,1) 100%);
+}
+.card:hover{
+  cursor: pointer;
+  box-shadow: 0 .8rem 1rem rgba(0,0,0, .15);
+}
+img{
+  width: 300px;
+  border-radius: 60%; 
+  margin-left: 300px;
+  margin-top: -20px;
+ }
